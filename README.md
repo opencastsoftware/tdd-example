@@ -1,2 +1,10 @@
-# tdd-example
-TDD Example
+# TDD Example
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org) [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+## Docs
+
+- [Docs](docs/README.md)
+- [Contributors](docs/CONTRIBUTORS.md)
+- [Acknowledgements](docs/ACKNOWLEDGEMENTS.md)
+- [Changelog](docs/CHANGELOG.md)
