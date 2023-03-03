@@ -16,4 +16,9 @@ internal class RomanNumeralsTest {
     internal fun `should return III for 3`() {
         assertEquals("III", RomanNumerals.fromDecimal(3))
     }
+
+    @Test
+    internal fun `should return IV for 4`() {
+        assertEquals("IV", RomanNumerals.fromDecimal(4))
+    }
 }
