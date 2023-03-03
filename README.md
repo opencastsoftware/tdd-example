@@ -8,3 +8,14 @@
 - [Contributors](docs/CONTRIBUTORS.md)
 - [Acknowledgements](docs/ACKNOWLEDGEMENTS.md)
 - [Changelog](docs/CHANGELOG.md)
+
+## Commit message format
+
+### Failing test
+🔴 failing test for ...
+
+### Passing test/the simplest implementation to make failing test pass
+🟢 simplest implementation for ...
+
+### Refactor
+📝 refactoring ...
