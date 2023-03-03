@@ -1,5 +1,5 @@
 object RomanNumerals {
     fun fromDecimal(value: Int): String {
-        return "I"
+        return "I".repeat(value)
     }
 }
