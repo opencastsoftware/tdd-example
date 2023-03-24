@@ -1,14 +1,10 @@
 object RomanNumerals {
     fun fromDecimal(value: Int): String {
-        if (value == 9) {
-            return "IX"
-        } else if (value > 5) {
-            return "V" + fromDecimal(value % 5)
-        }
-
-        return when (value) {
-            5 -> "V"
-            4 -> "IV"
+        return when {
+            value == 9 -> "IX"
+            value > 5 -> "V" + fromDecimal(value % 5)
+            value == 5 -> "V"
+            value == 4 -> "IV"
             else -> "I".repeat(value)
         }
     }
