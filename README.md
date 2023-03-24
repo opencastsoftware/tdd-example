@@ -12,10 +12,17 @@
 ## Commit message format
 
 ### Failing test
+
 🔴 failing test for ...
 
 ### Passing test/the simplest implementation to make failing test pass
+
 🟢 simplest implementation for ...
 
 ### Refactor
+
 📝 refactoring ...
+
+## Playground
+
+- https://play.kotlinlang.org/
