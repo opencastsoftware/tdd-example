@@ -1,10 +1,10 @@
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
-internal class KataTest {
+internal class ClassWithBugsTest {
     @Test
     internal fun shouldIncrementValueByOne() {
-        val kata = Kata()
-        assertEquals(2, kata.increment(1))
+        val classWithBugs = ClassWithBugs()
+        assertEquals(2, classWithBugs.increment(1))
     }
 }

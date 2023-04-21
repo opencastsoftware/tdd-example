@@ -1,4 +1,16 @@
-# Opencast kata template for Kotlin
+# Class With Bugs
+
+In this example we have used the starter Kata for [Kotlin](https://github.com/opencastsoftware/kata-starters/tree/main/kotlin) which has a simple `increment` function.
+
+People may copy and paste existing code as a way to accelerate their process, this can often lead to errors.
+
+The `increment` function already had a unit test in place which was passing, but someone has tried to implement a `decrement`
+function without adding a unit test first.
+
+Can you spot the very well hidden bug, by writing a unit test first, then making the test pass?
+
+<details>
+<summary>Info</summary>
 
 ## What does this provide?
 
@@ -20,3 +32,5 @@ A Java 8+ JDK and gradle.
 
 - `./gradlew compile` - compile the project.
 - `./gradlew test` - runs JUnit tests.
+
+</details>
