@@ -7,4 +7,9 @@ internal class ClassWithBugsTest {
         val classWithBugs = ClassWithBugs()
         assertEquals(2, classWithBugs.increment(1))
     }
+    @Test
+    internal fun shouldDecrementValueByOne() {
+        val classWithBugs = ClassWithBugs()
+        assertEquals(1, classWithBugs.decrement(2))
+    }
 }
