@@ -4,20 +4,16 @@ class RomanNumerals {
             var remaining = decimal
             val sb = StringBuilder()
 
-            while (remaining > 0) {
-                when {
-                    remaining >= 5 -> {
-                        sb.append("V")
-                        remaining -= 5
-                    }
-                    remaining >= 4 -> {
-                        sb.append("IV")
-                        remaining -= 4
-                    }
-                    remaining >= 1 -> {
-                        sb.append("I")
-                        remaining -= 1
-                    }
+            val numerals = listOf(
+                Pair("V", 5),
+                Pair("IV", 4),
+                Pair("I", 1)
+            )
+
+            numerals.forEach { (numeral, value) ->
+                while (remaining >= value) {
+                    sb.append(numeral)
+                    remaining -= value
                 }
             }
 
