@@ -6,6 +6,10 @@ class RomanNumerals {
 
             while (remaining > 0) {
                 when {
+                    remaining >= 5 -> {
+                        sb.append("V")
+                        remaining -= 5
+                    }
                     remaining >= 4 -> {
                         sb.append("IV")
                         remaining -= 4
